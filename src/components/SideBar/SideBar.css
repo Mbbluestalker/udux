@@ -1,0 +1,16 @@
+#sidebar{
+    background-image: url('../../assets/sidebar_background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.sidebar__header{
+    background: #0F0F0F;
+    height: 97px;
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    gap: 25px;
+}

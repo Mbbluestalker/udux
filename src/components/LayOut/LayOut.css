@@ -1,0 +1,72 @@
+.layout__container{
+    background: #000;
+    height: 100vh;
+    width: 100vw;
+    display:grid;
+    color: #fff;
+    grid-template-columns: auto 80%;
+    grid-template-rows: 10% 20% auto 30%;
+    grid-template-areas: 
+    'sidebar navbar' 
+    'sidebar showcase'
+    'sidebar welcome' 
+    'sidebar weekend' 
+    
+    
+    ;
+}
+
+
+
+
+.sidebar{
+    grid-area: sidebar;
+    /* background: red; */
+
+}
+
+.navbar{
+    grid-area: navbar;
+    /* background: blue; */
+}
+
+.showcase{
+    grid-area: showcase;
+    /* background: green; */
+}
+
+.welcome{
+    grid-area: welcome;
+    /* background: yellow; */
+}
+
+.weekend{
+    grid-area: weekend;
+    /* background: purple; */
+} 
+
+
+/* 
+.layout__container{
+    display: flex;
+    gap: 20px;
+    background: #000;
+    color: #fff;
+}
+
+.layout__left{
+    width: 25%;
+
+}
+
+.layout__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+}
+
+.navbar{
+    padding-top: 20px;
+} */
+

@@ -1,0 +1,10 @@
+.navbar__container{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding-left: 7%;
+}
+
+.navbar__container img{
+    cursor: pointer;
+}
