@@ -3,7 +3,7 @@ import MusicCard from "../MusicCard/MusicCard";
 import "./WelcomeBack.css";
 import BurnaBoy from "../../assets/burna boy.svg";
 import AdekunleGold from "../../assets/adekunle gold.svg";
-import Koffee from "../../assets/koffee.svg";
+// import Koffee from "../../assets/koffee.svg";
 
 const WelcomeBack = ({ ptext, htext, img, className }) => {
   return (
@@ -20,11 +20,11 @@ const WelcomeBack = ({ ptext, htext, img, className }) => {
           htext="Daily Vibes 2"
           img={AdekunleGold}
         />
-        <MusicCard
+        {/* <MusicCard
           ptext="Koffee, Chris Brown, WSTRN, Drake, Future, Burna Boy"
           htext="Daily Vibes 3"
           img={Koffee}
-        />
+        /> */}
         <MusicCard
           ptext="Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... "
           htext="Daily Vibes 1"
@@ -35,10 +35,10 @@ const WelcomeBack = ({ ptext, htext, img, className }) => {
           htext="Daily Vibes 2"
           img={AdekunleGold}
         />
-        <MusicCard
+        {/* <MusicCard
           ptext="Koffee, Chris Brown, WSTRN, Drake, Future, Burna Boy"
           htext="Daily Vibes 3"
-          img={Koffee}
+          img={Koffee} */}
         />
       </div>
     </div>
