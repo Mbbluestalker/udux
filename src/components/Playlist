@@ -1,4 +1,4 @@
-export const playlist = [
+export default playlist = [
     { id: 1, name: "Riffs & Runs" },
     { id: 2, name: "African Heat" },
     { id: 3, name: "Gidi Nights" },

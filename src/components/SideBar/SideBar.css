@@ -2,6 +2,8 @@
     background-image: url('../../assets/sidebar_background.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    padding-left: 30px;
+
 
 }
 
@@ -10,7 +12,36 @@
     height: 97px;
     width: 100%;
     display: flex;
-    padding-left: 30px;
     align-items: center;
     gap: 25px;
+}
+
+.home, .discover, .your__library, .liked__songs, .recently__played, .create__playlist, .my__playlist{
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.home{
+    margin-top: 20px;
+}
+
+.discover{
+    margin-top: -15px;
+}
+
+.liked__songs, .recently__played, .create__playlist{
+    margin-top: -17px;
+}
+
+.my__playlist p{
+    margin-right: 35%;
+}
+
+
+.playlist p{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
 }

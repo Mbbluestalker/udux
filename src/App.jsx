@@ -1,13 +1,12 @@
-import './App.css'
-import LayOut from './components/LayOut/LayOut'
+import "./App.css";
+import LayOut from "./components/LayOut/LayOut";
 
 function App() {
-
   return (
-    <LayOut>
-
-    </LayOut>
-  )
+    <div className="main__app">
+      <LayOut />
+    </div>
+  );
 }
 
-export default App
+export default App;

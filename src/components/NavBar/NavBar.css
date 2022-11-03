@@ -1,8 +1,8 @@
-.navbar__container{
+#navbar__container{
     display: flex;
     gap: 80px;
     align-items: center;
-    padding-left: 7%;
+    padding-left: 1%;
 }
 
 .navbar__container img{

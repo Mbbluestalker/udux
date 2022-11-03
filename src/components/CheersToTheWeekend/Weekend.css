@@ -1,0 +1,25 @@
+#weekend__container{
+    height:100% ;
+}
+
+
+.weekend__img__group img{
+    height: 200px;
+}
+
+#weekend__container h3{
+    font-weight: 700;
+    margin-top: -1.4rem;
+    padding-left: 18px;
+    font-size: 20px;
+}
+
+
+.weekend__img__group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}

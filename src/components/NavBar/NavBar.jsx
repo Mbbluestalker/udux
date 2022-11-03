@@ -6,7 +6,7 @@ import Search from "../../assets/search_icon.svg";
 
 const NavBar = ({className}) => {
   return (
-    <div className={className}  >
+    <div className={className} id="navbar__container"  >
       <div className="prev_next">
         <img src={Prev} alt="" />
         <img src={Next} alt="" />
